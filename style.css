@@ -1,0 +1,13 @@
+ /* body{
+background-color: aqua;
+} */
+
+.hide{
+    display: none;
+}
+.error{
+    display: flex;
+    background-color: red;
+    color: aliceblue;
+    margin: 1%;
+} 
