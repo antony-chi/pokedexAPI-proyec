@@ -77,6 +77,10 @@ async function buscarPokemo(){
 
             
         })
+        //agrege catch por si ocurre un error durante el fetch
+        .catch(function(){
+            console.log("Error de Conexicon de datos API")
+        })
     }else{
         alert("no insertaste datos")
     }

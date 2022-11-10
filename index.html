@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <title>POKEDEX</title>
 </head>
 <body>
-    <div>
+    <header>
+        <p>menu</p>
+    </header>
+    <div class="buscar">
         <input type="text" id="buscarInput" placeholder="Nombre de Pokemon" value="pikachu">
-        <label for="">tipo de busqueda</label>
-        <input type="radio" name="" id="TipoBusqueda">
-        <button onclick="buscarPokemo()">Buscar</button>
+        <button onclick="buscarPokemo()" class="btnBuscar">Buscar</button>
     </div>
     <div id="error" class="hide">
         <p></p>
@@ -21,7 +22,7 @@
         <div id="Imagen" class="error"></div>
         <table id="resultadoBuscar">
         </table>
-    </article>
+    </article >
     <div id="contenedorPokemones">
         <table id="pokemonsPrincipal">
         </table>
